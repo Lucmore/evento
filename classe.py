@@ -17,7 +17,10 @@ class Evento:
 
 
     def adicionar_participante(self, pessoa):
-        self.participantes.append(pessoa)
+        if not pessoa in self.participantes:
+            self.participantes.append(pessoa)
+        else:
+            print("Participante já está na lista")
 
     def remover_participante(self, pessoa):
         self.participantes.remove(pessoa)

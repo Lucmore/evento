@@ -33,13 +33,10 @@ def test_remover_participante():
 
 def test_str_pessoa():
     pessoa1 = Pessoa("João Silva", "joao.silva@example.com", "1234-5678")
-    
     assert pessoa1.__str__() == "Nome: João Silva, Email: joao.silva@example.com, Telefone: 1234-5678"
 
 def test_str_evento():
     evento1 = Evento("Conferência de Tecnologia", "2024-08-15", "Centro de Convenções")
-    
-    
     assert evento1.__str__() == "Evento: Conferência de Tecnologia, Data: 2024-08-15, Local: Centro de Convenções, Número de participantes: 0"
  
     

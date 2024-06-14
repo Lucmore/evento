@@ -1,6 +1,6 @@
 from classe import *
 
-pessoa = Pessoa("João Silva", "joao.silva@example.com", "1234-5678") 
+
 pessoa1 = Pessoa("João Silva", "joao.silva@example.com", "1234-5678"),
 pessoa2 = Pessoa("Maria Souza", "maria.souza@example.com", "8765-4321"),
 pessoa3 = Pessoa("Augusto Carrara", "agostinho.carrara@example.com", "3231-5732")
